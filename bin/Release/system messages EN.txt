@@ -1,0 +1,106 @@
+﻿*system constants
+
+* text in messages and on screen  
+SFL1 OK
+SFL2 Cancel
+SFL3 Save
+SFL4 Browse
+SFL5 F i l e s
+SFL6 Drive not ready
+SFL7 Drive is read-only
+SFL8 File is read-only
+
+* Form1
+SFL51 Backup files
+SFL52 Open backup script
+SFL53 New backup script
+SFL54 does not exist
+SFL59 Select a script
+
+
+* Select units / roots
+SFL61 OK and Expert mode
+SFL62 Choose one or more disks or browse one or more times to backup specific folders. Enter destination.
+SFL63 Browse to add more folders
+SFL64 Destination...
+SFL65 Folder to store the backup
+SFL67 Enter a valid name for the folder where to store the backup
+SFL68 Select one or more roots or enter specific folders.
+
+* Analyse / backup
+SFL71 Backup structure
+SFL72 Analyse
+SFL73 Backup
+SFL74 save script
+SFL75 Backup ready
+SFL76 Confront
+SFL77 Options
+SFL78 files to be copied.
+SFL79 Exclude % file(s)
+SFL80 Errors encountered
+SFL81 UnAuthorized access
+
+* select names
+SFL150 Specify a directory
+SFL151 initial data
+SFL154 Select a folder
+SFL155 No name selected!
+SFL156 Selection OK
+SFL157 or enter a name with * and/or ?
+SFL158 Include hidden folders
+SFL159 Include hidden files
+SFL160 Create incremental backup's
+
+
+* Options
+SFL261 Options
+SFL262 Verify the copy
+SFL263 Shut down pc when backup has finished
+SFL264 Only for this run
+SFL265 Write a log-file
+SFL266 Specify a valid log file name
+SFL267 Show progress window if file exceeds:
+SFL268 Exclude these folders from the backup:
+SFL269 Invalid number
+
+*edit list of dirs / files
+SFL301 Exclude name:
+SFL302 Exclude everywhere name:
+SFL303 Exclude type:
+SFL304 Exclude everywhere type:
+SFL305 Start backup
+SFL306 Undo last change
+SFL307 Go to expert mode
+SFL308 Done
+SFL310 Save backup script file
+SFL311 Backup script files (*.bsf)|*.bsf|All files (*.*)|*.*
+SFL312 Script file has been modified, save it?
+
+* manage script
+SFL351 Add
+SFL352 Change
+SFL353 Delete
+SFL354 Select folder
+SFL355 Exclude folder
+SFL356 Valid for ALL places, not just here
+SFL358 Include folder
+SFL359 Exclude file
+SFL362 Include file
+SFL363 Select file name(s)
+SFL365 No name was selected
+SFL366 Make changes
+SFL367 Destination:
+
+* verify
+
+SFL381 Confront
+SFL382 Exclude from backup:
+SFL383 Confrontation has finished
+
+* log
+
+SFL400 Files in backup
+SFL401 E R R O R
+SFL402 Files are not of same size: not all data has been copied.
+SFL403 Files do not compare.
+SFL404 File no longer exists

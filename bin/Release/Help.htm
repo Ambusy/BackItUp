@@ -1,0 +1,939 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE>SyncFiles: Backup your files</TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 3.2  (Win32)">
+	<META NAME="CREATED" CONTENT="0;0">
+	<META NAME="CHANGEDBY" CONTENT="burgt, vd mpm">
+	<META NAME="CHANGED" CONTENT="20120108;17563500">
+	<META NAME="Info 1" CONTENT="">
+	<META NAME="Info 2" CONTENT="">
+	<META NAME="Info 3" CONTENT="">
+	<META NAME="Info 4" CONTENT="">
+	<META NAME="CHANGEDBY" CONTENT="m b">
+	<META NAME="CHANGEDBY" CONTENT="m b">
+	<META NAME="CHANGEDBY" CONTENT="m b">
+	<META NAME="CHANGEDBY" CONTENT="Martien van der Burgt">
+	<STYLE TYPE="text/css">
+	<!--
+		P { color: #000000 }
+		A:link { color: #0000ff }
+		A:visited { color: #800080 }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="it-IT" TEXT="#000000" LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff" DIR="LTR">
+<P><FONT COLOR="#008000"><U><FONT SIZE=7>BackItUp</U></FONT></FONT> 
+</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="#le"><FONT SIZE=5><SPAN LANG="en-GB">English</SPAN></FONT></A>
+		</P>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="#li"><FONT SIZE=5>Italiano</FONT></A>
+		</P>
+	<LI><P><A HREF="#ln"><FONT SIZE=5><SPAN LANG="nl-NL">Nederlands</SPAN></FONT></A>
+		</P>
+</UL>
+<P><A NAME="le"></A>----------------------------------------------------------------------------------------------------------------</P>
+<P LANG="en-GB"><FONT SIZE=5>A software to backup some or many or all
+data on your pc. </FONT>
+</P>
+<P LANG="en-GB">Contents of the documentation</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm"><SPAN LANG="en-GB"><A HREF="#i">Installation</A>
+	</SPAN>
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><SPAN LANG="en-GB"><A HREF="#p">Implementing</A>
+	a backup system </SPAN>
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><SPAN LANG="en-GB"><A HREF="#m">Running</A>
+	a backup system </SPAN>
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><SPAN LANG="en-GB"><A HREF="#d">Remove</A>
+	deleted files in the originals, confronting both indices. </SPAN>
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><SPAN LANG="en-GB"><A HREF="#o">Options</A>
+	for the backup system </SPAN>
+	</P>
+	<LI><P><SPAN LANG="en-GB"><A HREF="#r">Restore</A> a file from the
+	backup</SPAN></P>
+</UL>
+<P LANG="en-GB"><A NAME="i"></A><FONT SIZE=5><B>Installation.</B></FONT></P>
+<P LANG="en-GB">Execute the setup program.</P>
+<P LANG="en-GB"><A NAME="p"></A><FONT SIZE=5><B>Implementing a backup
+system.</B></FONT></P>
+<P LANG="en-GB">Before you can create your first backup, you&rsquo;ll
+have to create one (or more) scripts, explaining to the software,
+what you want to include or exclude from the backup, and where to
+place the copy. To do so, run the program:</P>
+<P LANG="en-GB"><IMG SRC="Help_htm_31c60f73.jpg" NAME="immagini1" ALIGN=LEFT WIDTH=352 HEIGHT=113 BORDER=0><BR CLEAR=LEFT>and
+create a &quot;<FONT COLOR="#0000ff">new backup script</FONT>&quot;
+(That you need to look for a button on the screen is indicated with
+the <FONT COLOR="#0000ff">blue</FONT> colour). You&rsquo;ll be
+presented a list of all root folders on each drive in the pc.</P>
+<P LANG="en-GB"><IMG SRC="Help_htm_m2c473b0e.jpg" NAME="immagini2" ALIGN=LEFT WIDTH=580 HEIGHT=356 BORDER=0><BR CLEAR=LEFT>Select
+the drives, that you wish to have in the backup (click for the first
+and ctrl-click or shift-click for the others). Click on <FONT COLOR="#0000ff">OK</FONT>.
+If you don&rsquo;t want to backup entire drives, you may now add
+single folders by clicking on &quot;<FONT COLOR="#0000ff">Browse</FONT>&quot;.
+Next you'll have to specify the destination of the backup. To do so
+click &ldquo;<FONT COLOR="#0000ff">Destination...</FONT>&rdquo; and
+browse to the folder. Clicking on &ldquo;<FONT COLOR="#0000ff">Options</FONT>&rdquo;,
+you have the possibility to change default behaviour. See below for
+details.</P>
+<P LANG="en-GB">After having given all this information, the program
+is ready to proceed in 2 different ways:</P>
+<OL>
+	<LI><P LANG="en-GB">For beginners</P>
+	<LI><P LANG="en-GB">For experienced users.</P>
+</OL>
+<P LANG="en-GB"><FONT SIZE=4><B>For beginners or inexperienced users:
+</B></FONT>
+</P>
+<P LANG="en-GB">Click on <FONT COLOR="#0000ff">OK </FONT>and the
+program will list all folders with files that are to be backed up:</P>
+<P LANG="en-GB"><IMG SRC="Help_htm_m2f7e9247.jpg" NAME="immagini3" ALIGN=LEFT WIDTH=580 HEIGHT=338 BORDER=0><BR CLEAR=LEFT>You
+may expand lines to see more detail. Now start excluding all unwanted
+folders and/or files by right clicking the mouse and choosing from
+the list what to to</P>
+<P LANG="en-GB"><IMG SRC="Help_htm_5ff31b38.gif" NAME="immagini4" ALIGN=LEFT WIDTH=552 HEIGHT=416 BORDER=0><BR CLEAR=LEFT>Choose
+&ldquo;<FONT COLOR="#ff0000">Exclude name</FONT>&rdquo; on a folder
+of a file name to exclude this folder or file from the backup. Choose
+the &ldquo;<FONT COLOR="#ff0000">everywhere</FONT>&rdquo; version to
+exclude this name where ever it exists on your pc. If the name you
+chose contains a dot (.) you'll be offered the &ldquo;<FONT COLOR="#ff0000">Exclude
+type</FONT>&rdquo; option: all names at the same folder level as the
+name selected (those above and underneath indented as the selected
+one) that have the same type (the text in the name after the last
+dot) will be excluded. Again choose the &ldquo;<FONT COLOR="#ff0000">everywhere</FONT>&rdquo;
+version to exclude this type where ever it exists on your pc. This
+last options is practically useful to exclude all non relevant files
+such as .log or .tmp files. Find one of those files and with one
+mouse click each of them will be excluded from the backup. Note that
+when you have to choose from a menu, I use the <FONT COLOR="#ff0000">red
+</FONT><FONT COLOR="#000000">colour.</FONT></P>
+<P LANG="en-GB">When the list contains only folders and files that
+you wish to back up, click right and choose the &ldquo;<FONT COLOR="#ff0000">Start
+backup</FONT>&rdquo; option to actually backup. The &ldquo;<FONT COLOR="#ff0000">Go
+to expert mode</FONT>&rdquo; is explained for experts, below. Before
+backing up, first you'll have to save the script that you have just
+composed. 
+</P>
+<P LANG="en-GB"><IMG SRC="Help_htm_906c5b5.jpg" NAME="immagini5" ALIGN=LEFT WIDTH=563 HEIGHT=419 BORDER=0><BR CLEAR=LEFT>Choose
+a name and a folder that suits you well. 
+</P>
+<P LANG="en-GB">The backup process will start, showing the progress
+at the top, expanding little by little the tree structure. If a file
+exceeds the size, specified in the Options screen, the usual copy
+dialogue will appear, indicating progress and time remaining.</P>
+<P LANG="en-GB"><IMG SRC="Help_htm_14289a79.gif" NAME="immagini6" ALIGN=LEFT WIDTH=511 HEIGHT=384 BORDER=0><BR CLEAR=LEFT>If
+any file could not be copied, it appears in a list, with the reason:</P>
+<P LANG="en-GB"><IMG SRC="Help_htm_m3867e4d0.gif" NAME="immagini29" ALIGN=LEFT WIDTH=729 HEIGHT=300 BORDER=0><BR CLEAR=LEFT>Select
+any files, that you don't want to backup in the future and select
+&rdquo;<FONT COLOR="#ff0000">Delete n items</FONT>&rdquo; with a
+right click to add these names to the list of excludes files. At the
+end of the backup, close any window, to finish the program.</P>
+<P LANG="en-GB">The next time that you want to run a backup, on the
+initial screen choose &ldquo;<FONT COLOR="#0000ff">Open Backup
+script</FONT>&rdquo; and select the name you used to save the script.
+You'll see the script that you created before. Don't look at it and
+click &ldquo;<FONT COLOR="#0000ff">Analyse</FONT>&rdquo; if you would
+like to exclude any accidentally included folder and follow the
+procedure as described above, or click &ldquo;<FONT COLOR="#0000ff">Backup</FONT>&rdquo;
+to immediately run the backup.</P>
+<P><IMG SRC="Help_htm_m32cceda8.jpg" NAME="immagini7" ALIGN=LEFT WIDTH=580 HEIGHT=315 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P LANG="en-GB"><FONT SIZE=4><B>For experienced users</B>: </FONT>
+</P>
+<P LANG="en-GB">Proceed as above for the first 2 screens and then
+click on &ldquo;<FONT COLOR="#0000ff">OK and expert mode</FONT>&rdquo;
+To determine what to back up, the program knows 2 different
+strategies: an &ldquo;include&rdquo; and an &ldquo;exclude&rdquo;
+strategy. For the selected drives or folders, and for any folder that
+you name further on, you need to ask yourself: &quot;Shall I include
+only specified folders (include strategy), or shall I include
+everything, except a list of excluded folders (exclude strategy)?&quot;.
+The main difference stands in the fact, that in the latter case, any
+new folder will automatically be included in the backup. If you do
+not specify any rule (include, select or exclude), the folder and all
+it&rsquo;s subdirectories will be included. If you want to include a
+sub-folder (using include or exclude), you may select intermediate
+levels in the path instead of including them, if you are with the
+exclude strategy. The effect is that the folder counts neither for
+include or for exclude and thus will be ignored when determining if
+the include or if the exclude strategy is followed. For each selected
+folder you may specify additional include, exclude or select rules.
+When backing up, the program analyses the rules for each folder
+separately. If for a folder there exists an include (specific or in
+de general specifications), only the named folder for inclusion will
+be processed. If no include exists for the folder all sub folders
+will be included. From the list of included folders the program next
+removes all names that conform to any exclude rules. The remaining
+list will be backed up.</P>
+<P LANG="en-GB">So if for any of the roots selected you don&rsquo;t
+want to backup all sub folders, specify details for that folder; to
+include all sub folders, leave this line as it is. To add a
+specification, right click on the name and choose &ldquo;<FONT COLOR="#ff0000">Add</FONT>&rdquo;.
+For each option you will get more or less this screen:</P>
+<P LANG="en-GB" STYLE="margin-bottom: 0cm"><IMG SRC="Help_htm_m4dfa7845.jpg" NAME="immagini8" ALIGN=LEFT WIDTH=580 HEIGHT=352 BORDER=0><BR CLEAR=LEFT>If
+you decided for the INCLUDE strategy, select &quot;<FONT COLOR="#ff0000">Include
+folder</FONT>&quot;, then 
+</P>
+<UL>
+	<LI><P LANG="en-GB" STYLE="margin-bottom: 0cm">&quot;<FONT COLOR="#0000ff">browse</FONT>&quot;
+	to find it&rsquo;s name; 
+	</P>
+	<LI><P LANG="en-GB">or specify a name* or name??? type of string,
+	that confirms to the syntax of the MS-DOS DIR command, to include a
+	group of folders; 
+	</P>
+	<LI><P LANG="en-GB">Check the boxes to include hidden folders (/d in script) or
+	hidden files (/f in script) in this and its sub folders, if you want these included in the
+	backup. The specification inherits the parent boxes.</P>
+	<LI><P LANG="en-GB">Check the Create incremental backup's box (/i in script) if you
+	want the files in this folder to be copied separately (per change
+	date). Not checking the box will cause overwriting of previous
+	versions of the file. Checking it causes creation of a folder with
+	de file name and in the folder all the different versions of the
+	file</P>
+	<LI><P LANG="en-GB">Check the Valid for all places box, if you want
+	this inclusion to be considered for every folder that's being
+	processed. It will put the specification in the general part (under
+	root name *), instead of in the currently selected folder.</P>
+</UL>
+<P LANG="en-GB">Click &quot;<FONT COLOR="#0000ff">OK</FONT>&quot; to
+confirm..</P>
+<P LANG="en-GB">If you decided for the EXCLUDE strategy, select
+&quot;<FONT COLOR="#ff0000">Exclude folder</FONT>&quot;, and proceed
+as above for include.</P>
+<P LANG="en-GB">If you need to proceed along a path, not included nor
+excluded, select &ldquo;<FONT COLOR="#ff0000">Select folder</FONT>&rdquo;,
+and proceed as above for include.  If you want to exclude ALL
+folders, and just want to pass here to backup a folder deeper in the
+structure, you can specify to INCLUDE a folder named &ldquo;dummy&rdquo;
+(all lowercase) in combination with one or more  <FONT COLOR="#ff0000">&ldquo;Select
+folder&rdquo;</FONT> to proceed deeper in the structure. Select dummy
+inhibits the automatic choice of all folders if no <FONT COLOR="#ff0000">Exclude
+</FONT><FONT COLOR="#000000">and no </FONT><FONT COLOR="#ff0000">Include</FONT><FONT COLOR="#000000">
+is present.</FONT></P>
+<P LANG="en-GB">Once you specified an inclusion, selection or
+exclusion for a folders to be backed up, you should treat it just as
+you treated the roots. For each folder not entirely to be included,
+specify what you want, by specifying includes, excludes of selects. A
+selected folder needs to be specified further, otherwise it makes no
+sense specifying it.</P>
+<P LANG="en-GB">If you read the script, and see any errors, correct
+then with the &ldquo;<FONT COLOR="#ff0000">change</FONT>&rdquo;
+option in the menu, or delete the entry (and everything belonging to
+it) with &ldquo;<FONT COLOR="#ff0000">delete</FONT>&rdquo;. 
+</P>
+<P LANG="en-GB"><B>Include or exclude files.</B></P>
+<P LANG="en-GB">As for files to include or exclude, you get this
+screen:</P>
+<P LANG="en-GB"><IMG SRC="Help_htm_1cb086ee.jpg" NAME="immagini9" ALIGN=LEFT WIDTH=608 HEIGHT=373 BORDER=0><BR CLEAR=LEFT>If
+you want to includes a file, select &ldquo;include file&rdquo; and
+then</P>
+<UL>
+	<LI><P LANG="en-GB" STYLE="margin-bottom: 0cm">&quot;<FONT COLOR="#0000ff">browse</FONT>&quot;
+	to find it&rsquo;s name; 
+	</P>
+	<LI><P LANG="en-GB" STYLE="margin-bottom: 0cm">or specify a name* or
+	name??? type of string, that confirms to the syntax of the MS-DOS
+	DIR command, to include a group of files; 
+	</P>
+	<LI><P LANG="en-GB" STYLE="margin-bottom: 0cm">Check the Valid for
+	all places box, if you want this inclusion to be considered for
+	every folder that's being processed. It will put the specification
+	in the general part (under root name *), instead of in the currently
+	selected folder</P>
+</UL>
+<P LANG="en-GB">Save the backup script that you created with the
+&quot;<FONT COLOR="#0000ff">save script</FONT>&quot;, if you want to
+reuse it.</P>
+<P LANG="en-GB"><A NAME="m"></A><FONT SIZE=5><B>Run a backup.</B></FONT></P>
+<P LANG="en-GB">To <FONT COLOR="#0000ff">create a new script</FONT>
+follow the procedure explained above. To run a script again &ldquo;<FONT COLOR="#0000ff">open
+a script</FONT>&ldquo; that you created and saved previously. On the
+next screen click on &ldquo;<FONT COLOR="#0000ff">Analyse</FONT><FONT COLOR="#000000">&ldquo;
+</FONT>if you want to see which files will be included in the backup
+or to adjust the previously created script. If you&rsquo;d see any
+files or folders, that should be excluded from the backup, just right
+click on the name and exclude the file or the type. Right click on
+the analysis screen to start the backup. Click &ldquo;<FONT COLOR="#0000ff">Backup</FONT><FONT COLOR="#000000">&rdquo;</FONT>
+immediately after opening a script if you&rsquo;re not interested in
+the analysis results. If any file could not be copied, it appears in
+a list, with the reason. Select any files, that you don't want to
+backup in the future and select &rdquo;<FONT COLOR="#ff0000">Delete n
+items</FONT>&rdquo; with a right click to add these names to the list
+of excludes files. 
+</P>
+<P LANG="en-GB"><A NAME="d"></A><FONT SIZE=5><B>Remove deleted files
+in the backup</B>.</FONT></P>
+<P LANG="en-GB">When you want to remove (some) of the files once
+backed up, but not existing any more as an original, &ldquo;<FONT COLOR="#0000ff">open
+a script&rdquo;</FONT> that you used to backup. Click on &ldquo;<FONT COLOR="#0000ff">Confront&rdquo;
+</FONT>to create a list of all files / folders that don&rsquo;t exist
+as original. When the list is completed, remove a file or a folder
+with a right click on the name. Don't forget to clean up the recycle
+bin to eliminate them completely.</P>
+<P LANG="en-GB"><A NAME="o"></A><FONT SIZE=5><B>Options. </B></FONT>
+</P>
+<P LANG="en-GB">You may specify options for running the software by
+clicking on the &ldquo;<FONT COLOR="#0000ff">options&rdquo;</FONT>
+button: 
+</P>
+<UL>
+	<LI><P LANG="en-GB" STYLE="margin-bottom: 0cm">Write a detailed
+	report of the backup process in a .log file, which you should name
+	on the options screen. Use &ldquo;<FONT COLOR="#0000ff">browse&rdquo;</FONT>
+	to navigate on your pc. 
+	</P>
+	<LI><P LANG="en-GB" STYLE="margin-bottom: 0cm">Verify the
+	correctness of the backup by checking the contents of the copy
+	against the original. 
+	</P>
+	<LI><P LANG="en-GB">Shut down the pc, after the backup ended
+	successfully, and you don&rsquo;t want to wait for the backup to
+	end. You can specify to shut down only this time.</P>
+	<LI><P LANG="en-GB">Show the standard Explorer type progress bar
+	when files exceed a given dimension.</P>
+</UL>
+<P LANG="en-GB">When you are defining a new script, there is another
+option</P>
+<UL>
+	<LI><P LANG="en-GB">Exclude system folders from the backup:</P>
+	<LI><P LANG="en-GB">The Windows directory</P>
+	<LI><P LANG="en-GB">The programs directory</P>
+	<P LANG="en-GB">When creating a new script it is your own choice if
+	you backup the temporary (internet) files.</P>
+</UL>
+<P><BR><BR>
+</P>
+<P LANG="en-GB"><A NAME="r"></A><FONT SIZE=5><B>Restore. </B></FONT>
+</P>
+<P LANG="en-GB">You may restore a file by browsing the directory
+where the backup is stored, en following the structure, you'll find
+the latest backup. Copy it using Window's own Explorer.</P>
+<P LANG="en-GB"><FONT SIZE=4 STYLE="font-size: 15pt"><B>Contact</B></FONT>
+the author via AMBUSY @ GMAIL.COM</P>
+<P><A NAME="li"></A><SPAN LANG="en-GB">---------------------------------------</SPAN>--------------------------------------------------------------</P>
+<P><FONT SIZE=5>Un software per salvare i dati nel pc</FONT>. 
+</P>
+<P>Contenuto della documentazione</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="#ii">Installazione</A> 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="#ip">Implementazione</A>
+	di un sistema di salvataggio 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="#im">Esecuzione</A> del
+	sistema di salvataggio 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="#id">Rimozione</A> dal
+	salvataggio degli archivi cancellati, confrontando gli indici. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="#io">Opzioni</A> 
+	</P>
+	<LI><P><A HREF="#ir">Ripristina</A> un archivio 
+	</P>
+</UL>
+<P><A NAME="ii"></A><FONT SIZE=5><B>Installazione.</B></FONT></P>
+<P>Esegui il programma scaricato per il setup.</P>
+<P><A NAME="ip"></A><B><FONT SIZE=5>Implementare un sistema di
+salvataggio (Backup).</FONT>&nbsp;</B></P>
+<P>Per il salvataggio, devi creare una (o pi&ugrave;) procedura,
+spiegando al software cosa vuoi includere o escludere nel salvataggio
+e dove mettere la copia. Per fare una procedura, lanci il programma 
+</P>
+<P><IMG SRC="Help_htm_m3724fbdc.jpg" NAME="immagini10" ALIGN=LEFT WIDTH=352 HEIGHT=113 BORDER=0><BR CLEAR=LEFT>e
+&quot;<FONT COLOR="#0000ff">Crea procedura di salvataggio</FONT>&quot;
+(Che devi cercare un pulsante nella finestra viene indicato con il
+colore <FONT COLOR="#0000ff">blu</FONT>). Ti verr&agrave; presentato
+la lista delle cartelle principali del unit&agrave; del pc. 
+</P>
+<P><IMG SRC="Help_htm_6f53d64a.jpg" NAME="immagini11" ALIGN=LEFT WIDTH=636 HEIGHT=390 BORDER=0><BR CLEAR=LEFT>Selezionare
+una o pi&ugrave; cartelle da salvare (clicca per la prima, ctrl-clic
+o Shift-clic per altre). Clicca su &ldquo;<FONT COLOR="#0000ff">OK&rdquo;</FONT>.
+Se non vuoi salvare intere unit&agrave;, clicca su &quot;<FONT COLOR="#0000ff">Trova</FONT>&quot;
+per aggiungere singole cartelle. Dopo devi nominare la cartella dove
+<SPAN LANG="it-IT">salvare i dati. Per farlo, clicca su
+&ldquo;</SPAN><FONT COLOR="#0000ff"><SPAN LANG="it-IT">Destinazione...</SPAN></FONT>&rdquo;
+<SPAN LANG="it-IT">e trova la cartella. Se clicchi su &ldquo;</SPAN><FONT COLOR="#0000ff"><SPAN LANG="it-IT">Opzioni</SPAN></FONT>&rdquo;<SPAN LANG="it-IT">,
+hai la possibilit&agrave; di cambiare il comportamento standard del
+programma. Vedi dopo per dettagli.</SPAN></P>
+<P>Dopo aver fornito le informazioni, il programma pu&ograve;
+procedere in 2 modi diversi: 
+</P>
+<OL>
+	<LI><P>Per principianti</P>
+	<LI><P>Per utenti con esperienza</P>
+</OL>
+<P><FONT SIZE=4><B>Per principianti: </B></FONT>
+</P>
+<P>Clicca su &ldquo;<FONT COLOR="#0000ff">OK&rdquo; </FONT>e il
+programma ti creer&agrave; una lista di tutte le cartelle e tutti gli
+archivi da salvare.</P>
+<P><IMG SRC="Help_htm_m60ebcf63.jpg" NAME="immagini12" ALIGN=LEFT WIDTH=636 HEIGHT=371 BORDER=0><BR CLEAR=LEFT>Puoi
+aprire singoli pezzi dell'albero per vedere pi&ugrave; dettagli.
+Adesso cominci a eliminare tutte cartelle e tutti archivi da non
+salvare, cliccando col tasto destro e facendo la scelta dalle
+possibilit&agrave; offerte:</P>
+<P><IMG SRC="Help_htm_fb2f1b7.gif" NAME="immagini13" ALIGN=LEFT WIDTH=532 HEIGHT=426 BORDER=0><BR CLEAR=LEFT>Scegli
+&ldquo;<FONT COLOR="#ff0000">escludi nome</FONT>&rdquo; per una
+cartella o un archivio per escludere quel none dal salvataggio.
+Scegli la versione &ldquo;<FONT COLOR="#ff0000">dappertutto</FONT>&rdquo;
+per non salvare un simile nome anche se in altri posti nel pc. Se il
+nome che hai scelto, contiene un punto (.) c'&egrave; anche la
+possibilit&agrave; &ldquo;<FONT COLOR="#ff0000">escludi tipo</FONT>&rdquo;
+da escludere tutti nome con lo stesso tipo (il testo dopo l'ultimo
+punto nel nome) nella cartelle corrente (quelli sopra e sotto con la
+stessa indentazione del nome selezionato) La versione &ldquo;<FONT COLOR="#ff0000">dappertutto</FONT>&rdquo;
+offre la possibilit&agrave; di escludere quel tipo anche in tutti gli
+altri posti del pc. Questa opzione &egrave; pi&ugrave; utile con
+archivi che non con cartelle, credo, per non copiare archivi di tipo
+.log o .tmp. Trova un archivio di quel tipo per escluderli
+dappertutto dal salvataggio. Nota, che uso il colore <FONT COLOR="#ff0000">rosso</FONT>
+per indicare la scelta di una voce in un men&ugrave;.</P>
+<P>Quando la lista contiene solo cartelle e archivi da salvare,
+clicca tasto destro e scegli &ldquo;<FONT COLOR="#ff0000">inizio
+salvataggio</FONT>&rdquo; per iniziarlo. La scelta &ldquo;<FONT COLOR="#ff0000">vai
+al modo di esperto</FONT>&rdquo; &egrave; spiegato qui sotto, e vale
+per esperti solo. Prima di salvare viene richiesto di salvare la
+procedura che hai appena finita di comporre.</P>
+<P><IMG SRC="Help_htm_m76feecb4.jpg" NAME="immagini14" ALIGN=LEFT WIDTH=563 HEIGHT=419 BORDER=0><BR CLEAR=LEFT>Scegli
+un nome che a te va bene. 
+</P>
+<P>Il salvataggio inizia, mostrando il progresso alto nella finestra,
+aprendo una alla volta l'albero della struttura. Se l'ampiezza di un
+archivio supera il limite delle opzioni, verr&agrave; mostrato la
+finestra di progresso standard di Esplora, con il tempo rimanente.</P>
+<P><IMG SRC="Help_htm_14289a79.gif" NAME="immagini27" ALIGN=LEFT WIDTH=511 HEIGHT=384 BORDER=0><BR CLEAR=LEFT>Se
+non era possibile di copiare un archivio, il nome appaia in una lista
+con il motivo. 
+</P>
+<P><IMG SRC="Help_htm_m3867e4d0.gif" NAME="immagini30" ALIGN=LEFT WIDTH=729 HEIGHT=300 BORDER=0><BR CLEAR=LEFT>Selezioni
+gli archivi, che nel futuro non vuoi pi&ugrave; includere nel
+salvataggio, clicca destro e selezioni &ldquo;<FONT COLOR="#ff0000">Escludere
+n archivi</FONT>&rdquo;e quelli verranno aggiunti alla lista di
+archivi da escludere. Alla fine del salvataggio, chiudi le finestre,
+per completare il programma.</P>
+<P>La prossima volte che vuoi salvare i dati, nella finestra
+principale scegli &ldquo;<FONT COLOR="#0000ff">Apri procedura di
+salvataggio</FONT>&rdquo; e seleziona il nome della procedure di
+salvataggio. Vedrai la procedura creato l'altra volta. Non guardarla,
+ma clicca &ldquo;<FONT COLOR="#0000ff">Analizza</FONT>&rdquo; se ci
+sono altre cartelle da escludere dal salvataggio. O clicca subito
+&ldquo;<FONT COLOR="#0000ff">Inizio salvataggio</FONT>&rdquo; per
+salvare i dati.</P>
+<P><IMG SRC="Help_htm_7fa02521.jpg" NAME="immagini15" ALIGN=LEFT WIDTH=680 HEIGHT=370 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P><FONT SIZE=4><B>Utenti esperti.</B></FONT></P>
+<OL>
+	<LI><P ALIGN=LEFT>Procedi come nei primi 2 schermi e poi clicca &ldquo;<FONT COLOR="#0000ff">OK
+	e modo di esperto</FONT>&rdquo;. Per decidere che cosa c'&egrave; da
+	salvare, il programma distingue tra 2 strategie: quella di
+	&ldquo;inclusione&rdquo; e quella di &ldquo;esclusione&rdquo;. Per
+	ogni unit&agrave; selezionata, e per ogni cartella selezionata pi&ugrave;
+	avanti,devi chiederti: &quot;Salver&ograve; solo cartelle
+	specificate (strategia di inclusione) oppure salver&ograve; tutte le
+	cartelle contenute con eccezione di una lista di cartelle da
+	escludere (strategia di esclusione)?&quot;. La differenza principale
+	sta nel fatto che nel secondo caso cartelle aggiunte dopo, saranno
+	salvato automaticamente. Se per una cartella non specifichi nessun
+	regola di inclusione o di esclusione, tutte le sotto cartelle
+	verranno incluse. Se vuoi includere una cartella solo in parte, puoi
+	selezionare le cartelle del percorso intermedio invece di
+	includerle. L'effetto &egrave;, che la cartella selezionata non
+	conta come inclusa, ne come esclusa, e cos&igrave; non ha
+	interferenze con la strategia scelta e verr&agrave; saltata per
+	determinare che strategia stai seguendo. Per ogni cartella
+	selezionata puoi specificare regole addizionali per inclusione,
+	esclusione o selezione. Quando sta facendo il salvataggio il
+	programma analizza le regole cartella per cartelle separatamente. Se
+	per una cartella esiste una inclusione (specifica o nelle regole
+	generali) solo la cartella nominata verr&agrave; salvata. Se non
+	esiste nessuna inclusione per la cartella tutte le sotto cartelle
+	saranno incluse. Dalla lista delle cartelle incluse poi verranno
+	cancellati tutti i nomi delle cartelle da escludere secondo le
+	regole. La lista rimanente &egrave; poi usata per effettuare il
+	salvataggio.</P>
+</OL>
+<P>Allora se di una cartelle principale non vuoi salvata tutto,
+aggiungi regole per quella unita e poi per le sotto cartelle
+nominate, se non sono escluse. Per includere tutto, non devi
+aggiungere nessuna regola per quella cartella. Per aggiungere una
+regola, clicca col tasto destro sul nome della cartella e scegli
+&ldquo;<FONT COLOR="#ff0000">Aggiungi</FONT>&rdquo;. Per ogni opzione
+verr&agrave; mostrato (pi&ugrave; o meno) queste schermata:</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm"><IMG SRC="Help_htm_m22a7788b.jpg" NAME="immagini16" ALIGN=LEFT WIDTH=715 HEIGHT=434 BORDER=0><BR CLEAR=LEFT>Se
+	hai deciso per la strategia di inclusione, scegli la opzione
+	&quot;<FONT COLOR="#ff0000">Includere cartella</FONT>&quot;, e poi 
+	</P>
+	<UL>
+		<LI><P STYLE="margin-bottom: 0cm">&quot;<FONT COLOR="#0000ff">Trova</FONT>&quot;
+		per trovare il nome; 
+		</P>
+		<LI><P>o scrivere un nome o qualcosa come nome* e/o nome???, una
+		specifica, conforma alle regole della sintassi del commando DIR di
+		DOS, per includere una serie di cartelle; 
+		</P>
+		<LI><P>Metti un spunto nelle caselle per includere cartelle o
+		archivi nascosti nel salvataggio. I valori delle caselle vengono
+		ereditati dalla regola della cartella superiore.</P>
+		<LI><P>Metti un spunto nella caselle per creare un salvataggio
+		incrementale se vuoi salvare separatamente gli archivi modificati,
+		ordinato per data modifica. Se non metti lo spunto solo la ultima
+		versione dell'archivio e conservata. Spuntare provoca la creazione
+		di una cartelle con nome dell'archivio, e dentro i dati.</P>
+		<LI><P>Metti un spunto nella caselle Valido per tutti posti, se
+		vuoi che gli archivi con questo nome verranno inclusi in ogni
+		cartelle che verr&agrave; salvato. La specifica verr&agrave; messo
+		nella parte generale delle specifiche (sotto cartella principale
+		*), invece della cartella corrente.</P>
+	</UL>
+</UL>
+<UL>
+	<UL>
+		<P>Clicca &quot;<FONT COLOR="#0000ff">OK</FONT>&quot; per
+		confermare..</P>
+	</UL>
+</UL>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm">Se decidi per la strategia di
+	esclusione, seleziona opzione &ldquo;<FONT COLOR="#800000">Escludere
+	cartella</FONT>&rdquo;, e poi procedi come qui sopra per inclusione.
+		</P>
+	<LI><P STYLE="margin-bottom: 0cm">Se vuoi passare per una cartella
+	di un percorso pi&ugrave; lungo, selezioni &ldquo;<FONT COLOR="#800000">Seleziona
+	cartella</FONT>&rdquo;, e poi procedi come qui sopra per inclusione.
+	<SPAN LANG="en-GB"> If you want to exclude ALL folders, and just
+	want to pass here to backup a folder deeper in the structure, you
+	can specify to INCLUDE a folder named &ldquo;dummy&rdquo; (all
+	lowercase) in combination with one or more  </SPAN><FONT COLOR="#ff0000"><SPAN LANG="en-GB">&ldquo;Select
+	folder&rdquo;</SPAN></FONT><SPAN LANG="en-GB"> to proceed deeper in
+	the structure. Select dummy inhibits the automatic choice of all
+	folders if no </SPAN><FONT COLOR="#ff0000"><SPAN LANG="en-GB">Exclude
+	</SPAN></FONT><FONT COLOR="#000000"><SPAN LANG="en-GB">and no
+	</SPAN></FONT><FONT COLOR="#ff0000"><SPAN LANG="en-GB">Include</SPAN></FONT><FONT COLOR="#000000"><SPAN LANG="en-GB">
+	is present.</SPAN></FONT></P>
+	<P STYLE="margin-bottom: 0cm"></P>
+</UL>
+<P>Dopo aver specificato una inclusione, esclusione o selezione di
+una cartella, quella cartella deve essere trattata a sua volta, come
+hai fatto per la cartella principale: Scegli una strategia e includi
+o escludi cartelle da (non) salvare. Se non specifichi niente la
+cartella sar&agrave; inclusa per intera. Se una cartella &egrave;
+stato &ldquo;selezionato&rdquo; devi specificare quale sotto cartella
+sar&agrave; in- o esclusa, altrimenti la selezione non ha senso.</P>
+<P>Se vedi un errore nella procedura, puoi correggere l'errore
+selezionando &ldquo;<FONT COLOR="#800000">modifica</FONT>&rdquo; nel
+men&ugrave; o cancellare la specifica con &ldquo;<FONT COLOR="#ff0000">cancella</FONT>&rdquo;.</P>
+<P><B>Includere or escludere archivi.</B></P>
+<P>Per archivi vedrai questa finestra:</P>
+<P><IMG SRC="Help_htm_m47eac581.jpg" NAME="immagini17" ALIGN=LEFT WIDTH=731 HEIGHT=448 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<UL>
+	<LI><P>Se vuoi includere in archivio, seleziona &ldquo;<FONT COLOR="#ff0000">includere
+	archivio</FONT>&rdquo; e dopo</P>
+</UL>
+<UL>
+	<UL>
+		<LI><P STYLE="margin-bottom: 0cm">&quot;<FONT COLOR="#0000ff">Trova</FONT>&quot;
+		per trovare il nome; 
+		</P>
+		<LI><P STYLE="margin-bottom: 0cm">o scrivere un nome o qualcosa
+		come nome* e/o nome???, una specifica, conforma alle regole della
+		sintassi del commando DIR di DOS, per includere una serie di
+		archivi; 
+		</P>
+		<LI><P STYLE="margin-bottom: 0cm">Metti un spunto nella caselle
+		Valido per tutti posti, se vuoi che gli archivi con questo nome
+		verranno inclusi in ogni cartelle che verr&agrave; salvato. La
+		specifica verr&agrave; messo nella parte generale delle specifiche
+		(sotto cartella principale *), invece della cartella corrente.</P>
+	</UL>
+</UL>
+<P>Salva la procedura che hai creato con &ldquo;<FONT COLOR="#0000ff">Salva
+la procedura</FONT>&rdquo;<FONT COLOR="#0000ff"> </FONT><FONT COLOR="#000000">se
+vuoi riutilizzarla..</FONT></P>
+<P><A NAME="im"></A><FONT SIZE=5><B>Eseguire un salvataggio.</B></FONT></P>
+<P>Per eseguire una procedura di salvataggio, <FONT COLOR="#0000ff">Crea
+procedura di backup</FONT> come indicato qui sopra, o <FONT COLOR="#0000ff">Apri
+procedura di backup</FONT> che hai creato e salvato prima. Nella
+prossima finestra clicca &ldquo;<FONT COLOR="#0000ff">Analizza</FONT>&rdquo;<FONT COLOR="#000000">
+</FONT><FONT COLOR="#000000"><SPAN LANG="it-IT">se vuoi vedere quale
+archivi saranno salvati o se vuoi ancore precisare la procedura
+creato prima con altre esclusioni. Se dovresti vedere archivi o
+cartelle da non salvare, clicca col tasto destro e escludi nome o
+tipo. Clicca col tasto destro e seleziona &ldquo;</SPAN></FONT><FONT COLOR="#ff0000"><SPAN LANG="it-IT">inizio
+salvataggio</SPAN></FONT><FONT COLOR="#000000">&rdquo; </FONT><FONT COLOR="#000000"><SPAN LANG="it-IT">per
+iniziare il salvataggio. Clicca subito &ldquo;</SPAN></FONT><FONT COLOR="#0000ff"><SPAN LANG="it-IT">inizio
+salvataggio</SPAN></FONT><FONT COLOR="#000000">&rdquo;</FONT><FONT COLOR="#000000"><SPAN LANG="it-IT">se
+vuoi procedere solo col il salvataggio senza vedere i risultati
+intermedi. Se non era possibile di copiare un archivio, il nome
+appaia in una lista con il motivo. Selezioni gli archivi, che nel
+futuro non vuoi pi&ugrave; includere nel salvataggio, clicca destro e
+selezioni &ldquo;</SPAN></FONT><FONT COLOR="#ff0000"><SPAN LANG="it-IT">Escludere
+n archivi</SPAN></FONT><FONT COLOR="#000000">&rdquo;</FONT><FONT COLOR="#000000"><SPAN LANG="it-IT">e
+quelli verranno aggiunti alla lista di archivi da escludere. </SPAN></FONT>
+</P>
+<P>Dalla lista che <FONT COLOR="#0000ff">Analizza</FONT> crea, puoi
+sempre escludere archivi e/o cartelle, cliccando sul nome. Quelli
+archivi o cartelle saranno escluse anche per il futuro: saranno
+registrati nel elenco di archivio o cartelle da escludere.</P>
+<P><BR><BR>
+</P>
+<P><A NAME="id"></A><FONT SIZE=5><B>Rimozione dal salvataggio degli
+archivi cancellati.</B></FONT></P>
+<P><A NAME="io"></A>Se vuoi rimuovere dal salvataggio quelli archivi,
+una volte esistente nell&rsquo;originale e adesso non pi&ugrave;, o
+&ldquo;<FONT COLOR="#0000ff">Apri procedura di backup&rdquo; </FONT>usato
+per il salvataggio. Clicca su &ldquo;<FONT COLOR="#0000ff">Confronto&rdquo;
+</FONT>per creare una lista di tutte le cartelle e tutti archivi non
+pi&ugrave; esistente nell&rsquo;originale. Una volte completata la
+lista, fai clic su un nome col tasto destro per rimuovere l&rsquo;archivio
+o la cartella. Alla fine cancella quei nomi anche dal cestino per
+eliminarli definitivamente.</P>
+<P><FONT SIZE=5><B>Opzioni. </B></FONT>
+</P>
+<P>Si pu&ograve; indicare le seguenti opzioni per far girare il
+software, clicca il pulsante &ldquo;<FONT COLOR="#0000ff">opzioni&rdquo;</FONT>:
+</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm">Scrivi un rapporto dettagliato dei
+	archivi copiati e eventuali errori incontrati in un archivio .log.
+	Devi inserire il nome del file .log nella casella o clicca &ldquo;<FONT COLOR="#0000ff">trova&rdquo;</FONT>
+	per navigare nel disco del pc. 
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm">Verifica l&rsquo;esatto contenuto
+	della copia verso l&rsquo;originale. 
+	</P>
+	<LI><P>Spegni il pc dopo aver fatto il salvataggio, se non vuoi
+	stare li ad aspettare la fine della procedura. Puoi indicare di
+	spegnere la macchina solo per questa volta.</P>
+	<LI><P>Mostra la finestra di Explorer per mostrate il progresso
+	della copia, su un archivio &egrave; pi&ugrave; grande delle
+	dimensioni specificate</P>
+</UL>
+<P>Quando stai definendo una nuova procedura, c'&egrave; un'altra
+opzione</P>
+<UL>
+	<LI><P>Escludere cartelle di sistema dl salvataggio:</P>
+	<LI><P>La cartella Windows 
+	</P>
+	<LI><P>La cartella Programmi</P>
+	<P>E' la tua responsabilit&agrave; di in- o escludere archivi
+	temporanei, per esempio quelli di internet Explorer.</P>
+</UL>
+<P><BR><BR>
+</P>
+<P><A NAME="ir"></A><FONT SIZE=5><B>Ripristina. </B></FONT>
+</P>
+<P>Puoi ripristinare un archivio, sfogliando nelle cartelle del
+salvataggio. Troverai la posizione dell'archivio e puoi copiarlo
+semplicemente con l'Explorer di Windows.</P>
+<P>Puoi contattare l'autore tramite AMBUSY @ GMAIL.COM</P>
+<P><A NAME="ln"></A>----------------------------------------------------------------------------------------------------------------</P>
+<P LANG="nl-NL"><FONT SIZE=5>Een software om gegevens op je pc veilig
+te stellen.</FONT> 
+</P>
+<P LANG="nl-NL">Inhoud van de documentatie</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm"><SPAN LANG="nl-NL"><A HREF="#ni">Installatie</A>
+	</SPAN>
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><SPAN LANG="nl-NL"><A HREF="#np">Implementatie</A>
+	van een backup systeem </SPAN>
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><SPAN LANG="nl-NL"><A HREF="#nm">Uitvoeren</A>
+	van een backup </SPAN>
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><SPAN LANG="nl-NL"><A HREF="#nd">Verwijderen</A>
+	van origineel al verwijderde files uit de backup </SPAN>
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><SPAN LANG="nl-NL"><A HREF="#no">Opties</A>
+	voor het backuppen</SPAN></P>
+	<LI><P><SPAN LANG="nl-NL"><A HREF="#nr">Restore</A> een bestand</SPAN></P>
+</UL>
+<P LANG="nl-NL"><A NAME="ni"></A><FONT SIZE=5><B>Installatie.</B></FONT></P>
+<P LANG="nl-NL">Installeer het systeem door het setup programma uit
+te voeren.</P>
+<P LANG="nl-NL"><A NAME="np"></A><FONT SIZE=5><B>Implementatie van
+een backup systeem</B></FONT><FONT SIZE=5>.</FONT></P>
+<P LANG="nl-NL">Voordat de eerste backup maakt, moet je een of meer
+scripts maken, die uitleggen aan de software, wat je wel en niet wilt
+backuppen en waar de backup gemaakt moet worden. Start het programma:</P>
+<P LANG="nl-NL"><IMG SRC="Help_htm_31c60f73.jpg" NAME="immagini18" ALIGN=LEFT WIDTH=352 HEIGHT=113 BORDER=0><BR CLEAR=LEFT>cre&euml;er
+een &quot;<FONT COLOR="#0000ff">Nieuw backup script</FONT>&quot; (Dat
+je moet zoeken naar een knop moet zoeken geef ik aan met de kleur
+<FONT COLOR="#0000ff">blauw</FONT>). Je krijgt een lijst van alle
+root mappen op het systeem.</P>
+<P LANG="nl-NL"><IMG SRC="Help_htm_m2c473b0e.jpg" NAME="immagini19" ALIGN=LEFT WIDTH=580 HEIGHT=356 BORDER=0><BR CLEAR=LEFT>Selecteer
+er nul of meer van: die schijven, die je vrijwel geheel wilt
+backuppen (klik voor de eerste en ctrl-klik of shift-klik voor de
+volgende). Klik op <FONT COLOR="#0000ff">OK</FONT>. Als je niet hele
+disks wilt backuppen, voeg dan individuele mappen toe door op
+&quot;<FONT COLOR="#0000ff">Bladeren</FONT>&quot; te klikken. Ook
+moet je de bestemming opgeven. Klik op &ldquo;<FONT COLOR="#0000ff">Bestemming...</FONT>&rdquo;
+blader naar de map. Als je op <FONT COLOR="#0000ff">Options</FONT>
+klikt, kun je de basis werkwijze veranderen. Details worden verderop
+nog uitgelegd.</P>
+<P LANG="nl-NL">Nadat je deze informatie hebt opgegeven, kun je op 2
+manieren verder gaan: 
+</P>
+<OL>
+	<LI><P LANG="nl-NL">Voor beginners</P>
+	<LI><P LANG="nl-NL">Voor gebruikers met ervaring.</P>
+</OL>
+<P LANG="nl-NL"><FONT SIZE=4><B>Voor beginners of onervaren
+gebruikers: </B></FONT>
+</P>
+<P LANG="nl-NL">Klik op <FONT COLOR="#0000ff">OK </FONT><FONT COLOR="#000000">en
+het programma toont je alle mappen en bestanden die gebackupped
+kunnen worden:</FONT></P>
+<P LANG="nl-NL"><IMG SRC="Help_htm_m2f7e9247.jpg" NAME="immagini20" ALIGN=LEFT WIDTH=580 HEIGHT=338 BORDER=0><BR CLEAR=LEFT>Je
+kunt regels in en uitklappen voor meer of minder details. Begin nu
+alle mappen en bestanden uit te sluiten, die je niet wilt backuppen
+door met de rechter muis op de uit te sluiten naam te klikken</P>
+<P LANG="nl-NL"><IMG SRC="Help_htm_5ff31b38.gif" NAME="immagini21" ALIGN=LEFT WIDTH=552 HEIGHT=416 BORDER=0><BR CLEAR=LEFT>Kies
+&ldquo;<FONT COLOR="#ff0000">Neem niet mee</FONT>&rdquo; voor een map
+of bestand om deze uit te sluiten van de backup. Kies &ldquo;<FONT COLOR="#ff0000">nergens</FONT>&rdquo;
+om deze naam nergens mee te nemen, in welke map hij ook voorkomt. Als
+in de naam een punt (.) voorkomt kun je ook kiezen voor &ldquo;<FONT COLOR="#ff0000">Neem
+type niet mee</FONT>&rdquo;: alle namen, in de map op het zelfde
+niveau als waarop de geselecteerde naam staat (erboven en eronder en
+evenveel ingesprongen) zullen niet meedoen als ze hetzelfde type (de
+tekst na de laatste punt in de naam) hebben. Ook nu kun je &ldquo;nergens&rdquo;
+kiezen om dit type naam nooit mee te nemen. Deze optie is praktisch
+als je bestanden van het type .log of .tmp niet wilt backuppen. Zoek
+er een op en sluit hem overal uit.</P>
+<P LANG="nl-NL">Zodra de lijst alleen mappen en bestanden bevat, die
+je wilt veilig stellen, klik rechter muisknop en kies &ldquo;<FONT COLOR="#ff0000">Start
+backup</FONT>&rdquo; om de backup werkelijk uit te voeren. De keus
+&ldquo;<FONT COLOR="#ff0000">Naar expert modus</FONT>&rdquo; wordt
+uitgelegd bij &ldquo;ervaren gebruikers&rdquo; hieronder . Vooraf aan
+de backup wordt je gevraagd om het script ergens te bewaren.</P>
+<P LANG="nl-NL"><IMG SRC="Help_htm_906c5b5.jpg" NAME="immagini22" ALIGN=LEFT WIDTH=563 HEIGHT=419 BORDER=0><BR CLEAR=LEFT>Kies
+een naam en plaats, die je past. 
+</P>
+<P LANG="nl-NL">Het backupproces start en toont bovenaan de voorgang,
+terwijl de boomstructuur beetje bij beetje wordt geopend. Als een
+bestand de gekozen waarde in de opties overschrijdt, wordt het
+standaard voortgangsscherm van Explorer getoond met de tijd die het
+nog duurt.</P>
+<P LANG="nl-NL"><IMG SRC="Help_htm_14289a79.gif" NAME="immagini23" ALIGN=LEFT WIDTH=511 HEIGHT=384 BORDER=0><BR CLEAR=LEFT>Als
+een bestand niet gekopieerd kon worden, wordt de naam in een lijst
+geplaatst met de reden: 
+</P>
+<P LANG="nl-NL"><IMG SRC="Help_htm_m3867e4d0.gif" NAME="immagini28" ALIGN=LEFT WIDTH=729 HEIGHT=300 BORDER=0><BR CLEAR=LEFT>Selecteer
+de files die je voortaan niet meer wilt veilig stellen, en kies &ldquo;<FONT COLOR="#ff0000">Neem
+n bestanden niet meer mee</FONT>&rdquo; onder de rechter muisknop. De
+namen worden opgenomen als uit te sluiten bestanden. Als de backup
+klaar is, sluit alle schermen en het programma is klaar.</P>
+<P LANG="nl-NL">De volgende keer dat je een backup wilt uitvoeren,
+kies dan &ldquo;<FONT COLOR="#0000ff">Open Backup script</FONT>&rdquo;
+op het eerste scherm en kies de naam van het script. Het script wordt
+getoond maar kijk er niet naar. Klik &ldquo;<FONT COLOR="#0000ff">Analyseer</FONT>&rdquo;
+als je nog mappen of bestanden extra wilt uitsluiten volgens de boven
+beschreven procedure, of klik meteen op &ldquo;<FONT COLOR="#0000ff">Backup</FONT>&rdquo;
+om meteen te starten.</P>
+<P><IMG SRC="Help_htm_m32cceda8.jpg" NAME="immagini24" ALIGN=LEFT WIDTH=580 HEIGHT=315 BORDER=0><BR CLEAR=LEFT><BR><BR>
+</P>
+<P LANG="nl-NL"><FONT SIZE=4><B>Voor ervaren gebruikers</B>: </FONT>
+</P>
+<P LANG="nl-NL">Volg eerst de procedure voor beginners voor de eerste
+2 schermen, en klik dan op &ldquo;<FONT COLOR="#0000ff">OK en expert
+modus</FONT>&rdquo;. Om te bepalen, wat je gaat backuppen, kent het
+programma 2 strategie&euml;n: een &ldquo;meeneem&rdquo; en een
+&ldquo;weglaat&rdquo; strategie. Voor de geselecteerde schijven en
+mappen, en voor iedere nog gespecificeerde map om mee te nemen, moet
+je jezelf afvragen: &ldquo;Zal ik alleen genoemde mappen meenemen
+(meeneem strategie), of zal ik alles meenemen behalve de mappen, die
+ik wil weglaten (weglaat strategie)?&quot;. Het basis verschil zit 'm
+erin, dat in het laatste geval nieuwe mappen automatisch meegaan in
+de backup. Wanneer je voor een map geen enkele regel specificeert,
+worden alle mappen in die map, meegenomen in de backup. Als je een
+deel van een submap wilt uitsluiten, kun je tussenliggende nivo's
+selecteeren, in plaats van ze mee te nemen, als je de weglaat
+strategie wilt hanteren. Het gevolg is, dat de map niet voor meenemen
+meetelt, als je de weglaat strategie wilt volgen. Voor iedere
+meegenomen of geselecteerde map kun je weer nieuwe regels
+specificeren met hun eigen strategie. Als voor een map een mee te
+nemen sub map wordt gespecificeerd ( specifiek of in de algemene
+regels) dan word(en)t de meegenomen mappen in een lijst geplaatst.
+Zijn er geen meegenomen mappen, dan worden alle sub mappen in de
+lijst gezet. Uit de lijst worden de over te slaane mappen gestreept.
+Van de overgebleven mappen worden de bestanden veilig gesteld.</P>
+<P LANG="nl-NL">Dus als je voor een van de root mappen niet alle
+submappen wilt backuppen, specificeer dan regels, en anders laat je
+de regel staan zoals ie is. Om een specificatie toe te voegen,
+rechtsklik op de naam en kies &ldquo;<FONT COLOR="#ff0000">Toevoegen</FONT>&rdquo;
+(menu opties zijn in <FONT COLOR="#ff0000">rood</FONT>). Voor elke
+optie krijg je ongeveer dit scherm:</P>
+<UL>
+	<LI><P LANG="nl-NL" STYLE="margin-bottom: 0cm"><IMG SRC="Help_htm_m4dfa7845.jpg" NAME="immagini25" ALIGN=LEFT WIDTH=580 HEIGHT=352 BORDER=0><BR CLEAR=LEFT>Als
+	je beslist voor de MEENEEM strategie, selecteer dan &quot;<FONT COLOR="#ff0000">Neem
+	map mee</FONT>&quot;, en dan 
+	</P>
+	<UL>
+		<LI><P LANG="nl-NL" STYLE="margin-bottom: 0cm">&quot;<FONT COLOR="#0000ff">blader</FONT>&quot;
+		om de naam te vinden; 
+		</P>
+		<LI><P LANG="nl-NL">of specificeer een naam* or naam??? type tekst,
+		die voldoet aan de MS-DOS DIR commando syntaxis, om een groep
+		mappen op te geven; 
+		</P>
+		<LI><P LANG="nl-NL">Vink de vakjes om verborgen mappen of bestanden
+		mee te nemen in de backup. De vinkjes worden ge&euml;rfd van de
+		hogere map.</P>
+		<LI><P LANG="nl-NL">Vink het vakje Maak incrementele backups als je
+		wilt dat de bestanden in deze map apart per datum worden bewaard.
+		Niet vinken betekent, dat de alleen de laatste versie van het
+		bestand bewaard blijft. Een vinkje, dat er een map in de backup
+		gemaakt wordt met daarin per wijzigingsdatum een versie van het
+		bestand.</P>
+		<LI><P LANG="nl-NL">Vink het vakje &ldquo;Geldt voor alle mappen,
+		niet alleen deze&rdquo;, als je deze meeneem regel wilt laten
+		gelden voor alle mappen. De specificatie komt in de algemene
+		specificaties (onder root *) te staan in plaats van de actuele map.</P>
+	</UL>
+</UL>
+<UL>
+	<UL>
+		<P LANG="nl-NL">Klik &quot;<FONT COLOR="#0000ff">OK</FONT>&quot; om
+		te bevestigen.</P>
+	</UL>
+</UL>
+<UL>
+	<LI><P LANG="nl-NL" STYLE="margin-bottom: 0cm">Als je besluit tot de
+	weglaat strategie, selecteer dan &quot;<FONT COLOR="#ff0000">Sla map
+	over</FONT>&quot;, en ga verder als hierboven voor &ldquo;map
+	meenemen&rdquo;. 
+	</P>
+	<LI><P LANG="nl-NL" STYLE="margin-bottom: 0cm">Als je een map wilt
+	noemen, omdat verderop in de structuur een specificatie gewenst is,
+	kies dan voor &ldquo;<FONT COLOR="#ff0000">Selecteer map</FONT>&rdquo;,
+	en ga verder als hierboven. <SPAN LANG="en-GB"> If you want to
+	exclude ALL folders, and just want to pass here to backup a folder
+	deeper in the structure, you can specify to INCLUDE a folder named
+	&ldquo;dummy&rdquo; (all lowercase) in combination with one or more 
+	</SPAN><FONT COLOR="#ff0000"><SPAN LANG="en-GB">&ldquo;Select
+	folder&rdquo;</SPAN></FONT><SPAN LANG="en-GB"> to proceed deeper in
+	the structure. Select dummy inhibits the automatic choice of all
+	folders if no </SPAN><FONT COLOR="#ff0000"><SPAN LANG="en-GB">Exclude
+	</SPAN></FONT><FONT COLOR="#000000"><SPAN LANG="en-GB">and no
+	</SPAN></FONT><FONT COLOR="#ff0000"><SPAN LANG="en-GB">Include</SPAN></FONT><FONT COLOR="#000000"><SPAN LANG="en-GB">
+	is present.</SPAN></FONT></P>
+	<P LANG="nl-NL" STYLE="margin-bottom: 0cm"></P>
+</UL>
+<P LANG="nl-NL">Zodra je voor mappen de benodigde specificaties voor
+meenemen, overslaan of selecteren hebt opgegeven, behandel je deze
+nieuwe mappen als de eerdere mappen: specificeer voor iedere map, die
+niet geheel mee moet in de backup, wat er dan wel en niet mee moet.
+Een geselecteerde map moet een specificatie bevatten, anders heeft
+het geen zin om hem te selecteren.</P>
+<P LANG="nl-NL">Als je in het script fouten ziet, corrigeer ze dan
+met de &ldquo;<FONT COLOR="#ff0000">Wijzigen</FONT>&rdquo; optie in
+het menu of verwijder de regel met &ldquo;<FONT COLOR="#ff0000">Verwijder</FONT>&rdquo;.
+</P>
+<P LANG="nl-NL"><B>Bestanden meenemen of weglaten.</B></P>
+<P LANG="nl-NL">Als je kiest om een bestand mee te nemen of weg te
+laten, krijg je dit scherm:</P>
+<UL>
+	<LI><P LANG="nl-NL"><IMG SRC="Help_htm_1cb086ee.jpg" NAME="immagini26" ALIGN=LEFT WIDTH=608 HEIGHT=373 BORDER=0><BR CLEAR=LEFT>Als
+	je een bestand wilt meenemen, kies dan &ldquo;<FONT COLOR="#ff0000">neem
+	bestand mee</FONT>&rdquo; en daarna</P>
+</UL>
+<UL>
+	<UL>
+		<LI><P LANG="nl-NL" STYLE="margin-bottom: 0cm">&quot;<FONT COLOR="#0000ff">bladeren</FONT>&quot;
+		om de naam te vinden; 
+		</P>
+	</UL>
+</UL>
+<UL>
+	<UL>
+		<LI><P LANG="nl-NL" STYLE="margin-bottom: 0cm">of specificeer een
+		naam* or naam??? type tekst, die voldoet aan de MS-DOS DIR commando
+		syntaxis, om een groep mappen op te geven; 
+		</P>
+		<LI><P LANG="nl-NL" STYLE="margin-bottom: 0cm">Vink het vakje
+		&ldquo;Geldt voor alle mappen, niet alleen deze&rdquo;, als je deze
+		meeneem regel wilt laten gelden voor alle mappen. De specificatie
+		komt in de algemene specificaties (onder root *) te staan in plaats
+		van de actuele map.</P>
+	</UL>
+</UL>
+<P LANG="nl-NL">Sla het script op, dat je nu gemaakt hebt, met &quot;<FONT COLOR="#0000ff">sla
+script op</FONT>&quot;, om het te kunnen hergebruiken.</P>
+<P LANG="nl-NL"><A NAME="nm"></A><FONT SIZE=5><B>Een backup
+uitvoeren</B>.</FONT></P>
+<P LANG="nl-NL">Om een backup uit te voeren, maak je een <FONT COLOR="#0000ff">Nieuw
+backup script</FONT> zoals boven aangegeven of <FONT COLOR="#0000ff">Open
+backup script</FONT> dat je eerder hebt aangemaakt en bewaard. Klik
+op Analyseer<FONT COLOR="#0000ff"> </FONT>als je eerst wilt zien
+welke bestanden gekopieerd gaan worden en als de lijst klaar is klik
+je op <FONT COLOR="#0000ff">Backup. </FONT><FONT COLOR="#000000">Als
+je nog bestanden of map ziet, die niet mee zouden moeten doen, rechts
+klik en sla bestand of bestand type over, zoals eerder beschreven. </FONT>Je
+klikt meteen op <FONT COLOR="#0000ff">Backup</FONT> als je zeker bent
+dat de lijst van bestanden in orde zal zijn. Als een bestand niet
+gekopieerd kon worden, wordt de naam in een lijst geplaatst met de
+reden. Selecteer de files die je voortaan niet meer wilt veilig
+stellen, en kies &ldquo;<FONT COLOR="#ff0000">Neem n bestanden niet
+meer mee</FONT>&rdquo; onder de rechter muisknop. De namen worden
+opgenomen als uit te sluiten bestanden.</P>
+<P LANG="nl-NL"><A NAME="nd"></A><FONT SIZE=5><B>Verwijderde
+bestanden uit de backup halen.</B></FONT></P>
+<P LANG="nl-NL">Als je bestanden wilt verwijderen die ooit in de
+backup zijn gezet, terwijl het origineel niet meer bestaat, <FONT COLOR="#0000ff">Open
+backup script</FONT> dat je gebruikte om de backup te maken. Klik op
+<FONT COLOR="#0000ff">Confrontatie </FONT>om een lijst te maken met
+alle bestanden en mappen die niet meer in het origineel bestaan.
+Zodra de lijst klaar is, kun je met een rechter muis klik op de naam
+een bestand of een map uit de backup weggooien. Gooi ze daarna ook
+uit de prullenbak weg, als je ze echt definitief wilt verwijderen.</P>
+<P LANG="nl-NL"><A NAME="no"></A><FONT SIZE=5><B>Opties. </B></FONT>
+</P>
+<P LANG="nl-NL">Je kunt opties om de software uit te voeren opgeven
+door te klikken op de <FONT COLOR="#0000ff">Opties</FONT> knop: 
+</P>
+<UL>
+	<LI><P LANG="nl-NL" STYLE="margin-bottom: 0cm">Schrijf een
+	gedetailleerd log-bestand, waarvan je de naam hier op moet geven.
+	Klik op <FONT COLOR="#0000ff">bladeren</FONT> om op je pc de naam en
+	plaats te vinden. 
+	</P>
+	<LI><P LANG="nl-NL" STYLE="margin-bottom: 0cm">Verifieer de
+	volledigheid van de backup, door de inhoud van origineel en van de
+	kopie te vergelijken. 
+	</P>
+	<LI><P LANG="nl-NL">Sluit de pc af, nadat de backup klaar is en je
+	niet wilt wachten op het voltooien. Je kunt deze optie alleen voor
+	deze run aangeven.</P>
+	<LI><P LANG="nl-NL">Toon de standaard voortgangs scherm van Explorer
+	als een bestand groter is dan de opgegeven waarde..</P>
+</UL>
+<P LANG="nl-NL">Als je een nieuw script aanmaakt, is er een extra
+optie, om systeem mappen niet mee te nemen:</P>
+<UL>
+	<LI><P LANG="nl-NL">de Windows map</P>
+	<LI><P LANG="nl-NL">de programma's map</P>
+	<P LANG="nl-NL">als je een nieuw script maakt is het je eigen keus
+	of je tijdelijke bestanden (Temp) en tijdelijke internet bestanden
+	opneemt in de backup.</P>
+</UL>
+<P><BR><BR>
+</P>
+<P LANG="en-GB"><A NAME="nr"></A><FONT SIZE=5><B>Restore. </B></FONT>
+</P>
+<P LANG="nl-NL">Je kunt een bestand restoren, door te bladeren in de
+structuur van de backup map. Daar vind je het bestand, en je kunt het
+simpel met Window's Explorer copieeren.</P>
+<P><BR><BR>
+</P>
+<P LANG="nl-NL">Neem <FONT SIZE=5>contact </FONT>op met de maker, als
+je wilt, via AMBUSY @ LIBERO.IT</P>
+</BODY>
+</HTML>

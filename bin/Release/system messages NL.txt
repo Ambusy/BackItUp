@@ -1,0 +1,102 @@
+﻿*system constants
+
+* text in messages and on screen  
+SFL1 OK
+SFL2 Afbreken
+SFL3 Opslaan
+SFL4 Blader
+SFL5 B e s t a n d e n
+SFL6 Drive is niet klaar
+SFL7 Drive is alleen lezen
+SFL8 File is alleen lezen
+
+* Form1
+SFL51 Veiligstellen bestanden (Backup)
+SFL52 Open backup script
+SFL53 Nieuw backup script
+SFL54 bestaat niet
+SFL59 Selecteer een script
+
+* Select units / roots
+SFL61 OK en Expert modus
+SFL62 Kies een of meer schijven of blader om specifieke mappen op te geven. Geef bestemming op.
+SFL63 Blader om nog meer mappen op te geven
+SFL64 Bestemming...
+SFL65 Map waarin backup komt
+SFL67 Geef een geldige naam op voor de map waarin de backup geschreven gaat worden
+SFL68 Selecteer een of meer roots of geef eigen mappen op
+
+* Analyze / backup
+SFL71 Backup structuur
+SFL72 Analiseer
+SFL73 Backup
+SFL74 Sla script op
+SFL75 Klaar met backup
+SFL76 Confrontatie
+SFL77 Opties
+SFL78 files te copieren.
+SFL79 Neem % bestanden niet meer mee
+SFL80 Fouten gevonden
+SFL81 Niet geauthoriseerde toegang
+
+* select names
+SFL150 Specificeer een map
+SFL151 start gegevens
+SFL154 Selecteer een map
+SFL155 Geen naam geselecteerd
+SFL156 Selectie OK
+SFL157 of typ een naam met * en/of ? tekens
+SFL158 Neem verborgen mappen mee
+SFL159 Neem verborgen bestanden mee
+SFL160 Maak incrementele backups
+
+* Options
+SFL261 Opties
+SFL262 Verifieer de kopie
+SFL263 Sluit de pc af als de backup klaar is
+SFL264 Alleen voor deze keer
+SFL265 Schrijf een log-file
+SFL266 Specificeer een geldige naam voor de logfile
+SFL267 Toon voortgangs-scherm als bestand groter is als:
+SFL268 Neem deze maps niet mee in de backup:
+SFL269 Ongeldig getal
+
+*edit list of dirs / files
+SFL301 Neem niet mee:
+SFL302 Neem nergens mee:
+SFL303 Neem type niet mee:
+SFL304 Neem type nergeng mee:
+SFL305 Start backup
+SFL306 Undo laatste wijziging
+SFL307 Naar expert modus
+SFL308 Einde
+SFL310 sla backup script op
+SFL311 Backup script files (*.bsf)|*.bsf|All files (*.*)|*.*
+SFL312 Scriptfile is gewijzigd, saven?
+
+* manage script
+SFL351 Toevoegen
+SFL352 Wijzigen
+SFL353 Verwijderen
+SFL354 Selecteer map
+SFL355 Sla map over
+SFL356 Geldt voor alle mappen, niet alleen deze
+SFL358 Neem map mee
+SFL359 Sla bestand over
+SFL362 Neem bestand mee
+SFL363 Selecteer filenaam of namen
+SFL365 Geen naam geselecteerd
+SFL366 Maak veranderingen
+SFL367 Bestemming:
+
+* verify
+SFL381 Confrontatie
+SFL382 Verwijder uit backup:
+SFL383 Klaar met confrontatie
+
+* log
+SFL400 Files in de backup
+SFL401 F O U T
+SFL402 Files hebben ongelijke lengte: niet alles is gekopiëerd.
+SFL403 Files zijn ongelijk van inhoud.
+SFL404 File bestaat niet meer.
