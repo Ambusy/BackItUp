@@ -3,7 +3,7 @@ Utility to backup disk(s) and/or folders maintaining the folder structure equal 
 
 Create (or generate) a script naming each map to be backupped by inclusion or exclusion.
 - exclusion copies everything in a map that is not expressly excluded (so a newly created folder is automatically backupped)
-- inclusion copies only the named folders or files, new ones are not backupped. 
+- inclusion copies only the named folders or files, newly created ones are not backupped. 
 If a folder is a candidate to be copied, you can backup the files in it again by inclusion or exclusion.
 Files in the backup can be overwritten is the original was modified, or incrementally added to the backup in a folder with the filename as name and date-signed names for the datafiles.
 
