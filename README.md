@@ -14,4 +14,4 @@ This exclusion is then added to the script.
 
 You may check for files or folders that are on the backup, but deleted in the original. You can decide for each folder or file to delete the version on the backup, or leave it there.
 
-Open the HELP.HTML in the bin/release folder to view the documentation.
+Open the HELP.HTML in the bin/release folder to view the documentation. Written in VBasic, Visual Studio 2019
