@@ -1,8 +1,8 @@
 # BackItUp
 Utility to backup disk(s) maintaining the folder structure equal in original and backup.
 
-Create (or generate) a script naming each map to be backupped by inclusion or exclusion.
-- exclusion copies everything in a map that is not expressly excluded (so a newly created folder is automatically backupped)
+Create (or generate) a script naming each map to be backed up by inclusion or exclusion.
+- exclusion copies everything in a map that is not expressly excluded (so a newly created folder is automatically backed up)
 - inclusion copies only the named folders or files, newly created ones are not backupped. 
 If a folder is a candidate to be copied, you can backup the contained maps or files once again by inclusion or exclusion.
 Files in the backup can be overwritten is the original was modified, or incrementally added to the backup in a folder with the filename as name and date-signed names for the datafiles, to keep all versions of the file.
